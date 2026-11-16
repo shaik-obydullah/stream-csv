@@ -1,8 +1,20 @@
-# Apache NetBeans #
+/vendor/
+.env
+/.idea/
+/.vscode/
+*.log
 
+# Generated exports
+*.csv
+!/database/*.csv
+
+# Apache NetBeans
 nbproject
 nbproject/private
 nbproject/private/private.properties
-
 nbproject/project.properties
 nbproject/project.xml
+
+# OS
+.DS_Store
+Thumbs.db
